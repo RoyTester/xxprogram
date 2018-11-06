@@ -5,10 +5,9 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setuptools.setup(
     name='xxprogram',
-    version='1.1.0',
-    py_modules=['XXProgram'],
+    version='1.1.1',
     author='ZRui',
-    description='用程序员梗随机生成用户名',
+    description='用程序员梗随机生成用户名，娱乐项目',
     author_email='a1571093237@msn.cn',
     url='https://github.com/zhonlaoda/xxprogram',
     long_description=long_description,

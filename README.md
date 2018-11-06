@@ -6,9 +6,8 @@ IN[1]:  import XXProgram as P
 OUT[1]:  ['自带游标卡尺的Python程序员', 
          '不会修电脑的Python程序员', 
          'import 别人的程序的Python程序员']
-IN[1]:  import XXProgram as P
-OUT[2]:  P.faker(k=3)
-         ['0 Error 0 Warning的程序员',
+IN[2]:  P.faker(k=3)
+OUT[2]:  ['0 Error 0 Warning的程序员',
          'IT界首屈一指的的C++程序员',
          '不写文档的Shell程序员']
 ```
