@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setuptools.setup(
     name='xxprogram',
-    version='1.1.1',
+    version='1.1.2',
     author='ZRui',
     description='用程序员梗随机生成用户名，娱乐项目',
     author_email='a1571093237@msn.cn',

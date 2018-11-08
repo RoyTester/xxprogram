@@ -7,7 +7,9 @@ from .programs import C, Common, CSharp, Cpp, JavaScript, Python, Php, Assembly,
 import random
 
 
-def faker(k=1, name_list=[]):
+def faker(k=1, name_list=None):
+    if name_list is None:
+        name_list = []
     if k > 0:
         name_list.extend(random.choice(list(program.values())).faker())
         faker(k=k-1, name_list=name_list)
